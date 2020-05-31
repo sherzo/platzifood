@@ -3,17 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
+    <title>Card / Producto</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="mx-4">
-    <h1 class="h-32 w-1/5 mx-auto my-8 bg-yellow-500 text-white">
-      Hello World
-    </h1>
-    <input
-      class="py-1 px-4 border-2 border-blue-500 placeholder-green-500"
-      type="text"
-      placeholder="Lorem ipsum"
-    />
+  <body class="min-h-screen bg-gray-400 mx-4 mb-8">
+    <div class="md:flex mt-4 md:w-1/2 md:bg-white rounded-lg">
+      <div>
+        <img
+          class="rounded-lg md:w-full"
+          src="img/hamburger.jpg"
+          alt="hamburger"
+        />
+      </div>
+      <div
+        class="relative -mt-2 p-2 mx-2 bg-white md:bg-transparent lg:shadow-lg rounded-lg"
+      >
+        <h2
+          class="text-xl text-gray-900 uppercase tracking-tight font-semibold md:text-lg"
+        >
+          Hamburguesa con queso
+        </h2>
+        <p class="text-gray-700 leading-snug">
+          Hamburguesa con queso y aderezo chipote.
+        </p>
+        <div class="mt-2 text-sm font-semibold text-gray-700">MXN $15</div>
+        <div class="mt-2 text-xs text-yellow-700">
+          &starf;&starf;&starf;&starf;&starf; / 36 reseñas
+        </div>
+      </div>
+    </div>
   </body>
 </html>
